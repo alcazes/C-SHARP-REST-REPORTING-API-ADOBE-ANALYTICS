@@ -1,0 +1,8 @@
+C:\Users\acazes\Documents\Visual Studio 2010\Projects\REST API 1.4\REST API 1.4\bin\Debug\REST API 1.4.exe.config
+C:\Users\acazes\Documents\Visual Studio 2010\Projects\REST API 1.4\REST API 1.4\bin\Debug\REST API 1.4.exe
+C:\Users\acazes\Documents\Visual Studio 2010\Projects\REST API 1.4\REST API 1.4\bin\Debug\REST API 1.4.pdb
+C:\Users\acazes\Documents\Visual Studio 2010\Projects\REST API 1.4\REST API 1.4\obj\x86\Debug\REST API 1.4.exe
+C:\Users\acazes\Documents\Visual Studio 2010\Projects\REST API 1.4\REST API 1.4\obj\x86\Debug\REST API 1.4.pdb
+C:\Users\acazes\Documents\GitHub\C-SHARP-REST-REPORTING-API-ADOBE-ANALYTICS\REST API 1.4\REST API 1.4\bin\Debug\REST API 1.4.exe.config
+C:\Users\acazes\Documents\GitHub\C-SHARP-REST-REPORTING-API-ADOBE-ANALYTICS\REST API 1.4\REST API 1.4\obj\x86\Debug\REST API 1.4.exe
+C:\Users\acazes\Documents\GitHub\C-SHARP-REST-REPORTING-API-ADOBE-ANALYTICS\REST API 1.4\REST API 1.4\obj\x86\Debug\REST API 1.4.pdb
