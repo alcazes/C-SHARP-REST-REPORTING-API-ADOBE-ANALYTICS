@@ -1,0 +1,6 @@
+C:\Users\acazes\Documents\Visual Studio 2010\Projects\REST API 1.3\REST API 1.3\bin\Debug\REST API 1.3.exe.config
+C:\Users\acazes\Documents\Visual Studio 2010\Projects\REST API 1.3\REST API 1.3\bin\Debug\REST API 1.3.exe
+C:\Users\acazes\Documents\Visual Studio 2010\Projects\REST API 1.3\REST API 1.3\bin\Debug\REST API 1.3.pdb
+C:\Users\acazes\Documents\Visual Studio 2010\Projects\REST API 1.3\REST API 1.3\obj\x86\Debug\REST API 1.3.exe
+C:\Users\acazes\Documents\Visual Studio 2010\Projects\REST API 1.3\REST API 1.3\obj\x86\Debug\REST API 1.3.pdb
+C:\Users\acazes\Documents\Visual Studio 2010\Projects\REST API 1.3\REST API 1.3\obj\x86\Debug\REST API 1.3.csprojResolveAssemblyReference.cache
