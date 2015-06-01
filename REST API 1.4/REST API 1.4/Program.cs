@@ -93,7 +93,7 @@ namespace REST_API_1._4
             }
         }
 
-        /*Build the json for the method Report.QueueRanked*/
+        /*Build the json for the method Report.Queue*/
         string requestJsonBuilder()
         {
             //Build the list of metrics to send with the request
@@ -123,7 +123,7 @@ namespace REST_API_1._4
 
         }
 
-        /*Build the json for the methods Report.GetStatus and Report.GetReport*/
+        /*Build the json for the methods Report.GetStatus and Report.Get*/
         string requestJsonBuilderStatus(string id)
         {
             ReportID json = new ReportID() { reportID = id };
@@ -133,7 +133,7 @@ namespace REST_API_1._4
             return serializedResult;
         }
 
-        /*Build the rest call to the Adobe Analytics REST APII 1.3*/
+        /*Build the rest call to the Adobe Analytics REST APII 1.4*/
         public String callMethod(String method, String data)
         {
             Program prog = new Program();
@@ -172,36 +172,7 @@ namespace REST_API_1._4
             catch (Exception ex) { throw new Exception(ex.Message); }
         }
 
-        //string restRequest()
-        //{
-        //    string USERNAME = "obellot:Cardgage Corp";
-        //    string SECRET = "4c66d0ba06757b5c1791db69699922d2";
-        //    string ENDPOINT = "https://api.omniture.com/admin/1.3/rest/";
-        //    HttpWebResponse statusResponse = null;
-        //    string responseXml = "";
-        //    StringBuilder sbUrl = new StringBuilder(ENDPOINT + "?method=Company.GetTokenCount");
-        //    HttpWebRequest omniRequest = (HttpWebRequest)WebRequest.Create(sbUrl.ToString());
-        //    string timecreated = generateTimestamp();
-        //    string nonce = generateNonce();
-        //    string digest = getBase64Digest(nonce + timecreated + SECRET);
-        //    nonce = base64Encode(nonce);
-        //    omniRequest.Headers.Add("X-WSSE: UsernameToken Username=\"" + USERNAME + "\", PasswordDigest=\"" + digest + "\", Nonce=\"" + nonce + "\", Created=\"" + timecreated + "\"");
-        //    omniRequest.Method = "POST";
-        //    omniRequest.ContentType = "application/x-www-form-urlencoded";
-        //    try
-        //    {
-        //        statusResponse = (HttpWebResponse)omniRequest.GetResponse();
-        //        using (Stream receiveStream = statusResponse.GetResponseStream())
-        //        {
-        //            using (StreamReader readStream = new StreamReader(receiveStream, Encoding.UTF8))
-        //            {
-        //                responseXml = readStream.ReadToEnd();
-        //            }
-        //        }
-        //    }
-        //    catch (Exception ex) { throw new Exception(ex.Message); }
-        //    return responseXml;
-        //}
+      
 
 
         /*** Here are the private functions ***/
